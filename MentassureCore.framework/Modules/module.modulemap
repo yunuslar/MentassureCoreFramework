@@ -1,0 +1,11 @@
+framework module MentassureCore {
+  umbrella header "MentassureCore.h"
+
+  export *
+  module * { export * }
+}
+
+module MentassureCore.Swift {
+    header "MentassureCore-Swift.h"
+    requires objc
+}
