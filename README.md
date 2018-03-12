@@ -25,7 +25,8 @@ drivingInsight.UserID = _userID
 startTrip:
 Starts a trip and records location and motion data.
 
-stopTrip
+stopTrip:
+
 Stops the trip. Implement DrivingInsightDelegate in your application to be notified after trip finished successfully or trip failed for a reason.
 
 CurrentTrip:
