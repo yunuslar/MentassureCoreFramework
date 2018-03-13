@@ -185,8 +185,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_MODULE_NAMESPACE_PUSH("MentassureCore")
 
-SWIFT_CLASS("_TtC14MentassureCore11Leaderboard")
-@interface Leaderboard : NSObject
+SWIFT_CLASS("_TtC14MentassureCore15LeaderboardItem")
+@interface LeaderboardItem : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
