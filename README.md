@@ -2,7 +2,7 @@
 MentassureCore Framework V3.2
 
 ##  User
-Authenticated users should be added to Mentassure by this class. Also their friends can be added to Mentassure.
+Authenticated users should be added to Mentassure by this class. Also their friends can be added to Mentassure. Implement UserDelegate in your application to be notified when user is added, friend is added and leadership is got.
 
 AddUser:
 This method adds users  to Mentassure. Authentication is left to the application but each authenticated user should be added via this method.
