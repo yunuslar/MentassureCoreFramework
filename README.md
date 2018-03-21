@@ -1,13 +1,16 @@
 # MentassureCore Framework in Swift
-MentassureCore Framework V3.2
+MentassureCore Framework V3.3
 
-##  User
+## User
 Authenticated users should be added to Mentassure by this class. Also their friends can be added to Mentassure. Implement UserDelegate in your application to be notified when user is added, friend is added and leadership is got.
 
-AddUser:
+addUser:
 This method adds users  to Mentassure. Authentication is left to the application but each authenticated user should be added via this method.
 
-AddFriend:
+login:
+This method will be used when the authentication is left to Mentassure. Login credentials are validated by this method.
+
+addFriend:
 Inorder to get Leadership list among friends, each friend should be added by this method.
 
 getLeadership:
